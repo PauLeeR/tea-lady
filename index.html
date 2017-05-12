@@ -7,32 +7,32 @@
 </head>
 <body>
 	<header>
-		<h1>Tetería Té como Señora</h1>
+		<h1>Tetería "Té como Señora"</h1>
 	</header>
 	<section id="formulario">
-		<p>Bienvenid@s a la Tetería Té como Señora. Ofrecemos los mejores tés del mercado a bajos precios, gracias a nuestro sistema de venta online y cajas del mes.</p>
+			<p>Bienvenid@s a nuestra Tetería. Ofrecemos los mejores tés del mercado a bajos precios, gracias a nuestro sistema de venta online y cajas del mes.</p>
 		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario</p>
 		<form action="">
-			<label for="Nombre Dueño"> Nombre:</label>
-			<input type="text">
-			<label for="Nombre mascota"> Apellido:</label>
-			<input type="text">
-			<label for="Email"> Correo Electrónico:</label> 
-			<input type="email">
-			<label for="Dirección">Dirección: </label>
-			<input type="text">
-			<label for="Teléfono">Teléfono:</label>
-			<input type="text">
-			<label for="">Selecciona un pack:</label>
-			<select name="" id="">
-				<option value="">Escoje tu opción</option>
+			<p><label for="Nombre Dueño"> Nombre:</label>
+			<input type="text" id="name"></p>
+			<p><label for="Nombre mascota"> Apellido:</label>
+			<input type="text" id="lastname"></p>
+			<p><label for="Email"> Correo Electrónico:</label> 
+			<input type="email" id="email"></p>
+			<p><label for="Dirección">Dirección: </label>
+			<input type="text" id="address"></p>
+			<p><label for="Teléfono">Teléfono:</label>
+			<input type="text" id="phone"></p>
+			<p><label for="">Selecciona un pack:</label></p>
+			<p><select name="" id="">
+				<option value="">Escoge tu opción</option>
 				<option value="">Pack de té clásico (Té negro)</option>
-				<option value="">Pack frutales (Hierbas y té con aromatizado con fruta</option>
+				<option value="">Pack frutales (Hierbas y té con aromatizado con fruta)</option>
 				<option value="">Pack variedades (Té verde, rojo y blanco)</option>
-			</select>
+			</select></p>
 			<label for=""></label>
 			<input type="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos
-			<button type="submit" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
+			<input type="button" id="send" form="form1" value="Enviar" onclick="mostrarData()"</input>
 		</form>
 	</section>
 	<section id="clientes">
